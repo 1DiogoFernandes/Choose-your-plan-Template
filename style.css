@@ -1,0 +1,161 @@
+body {
+  background: #F5F8FF;
+
+}
+
+.page {
+  width: 1098px;
+  margin: 0 auto;
+  padding-top: 200px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.retangulo {
+  width: 1098px;
+  height: 544px;
+
+  border-radius: 30px;
+  border: 20px solid #FFF;
+  background: rgba(255, 255, 255, 0.70);
+
+  display: flex;
+  justify-content: space-evenly
+
+}
+
+
+h2 {
+  margin-top: 0;
+  font-size: 26px;
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+}
+
+section {
+  margin: 80px 93px 100px 87px;
+  justify-content: space-evenly;
+  display: flex;
+  gap: 45px;
+}
+
+#M {
+  font-size: 62px;
+
+}
+
+#m {
+  font-size: 36px;
+
+}
+
+.group1 {
+  width: 276px;
+  height: 364px;
+}
+
+.group2 {
+  width: 276px;
+  height: 364px;
+}
+
+.group3 {
+  width: 276px;
+  height: 364px;
+}
+
+#p {
+  font-size: 16px;
+  color: #141843;
+  font-weight: 500;
+}
+
+#P {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #141843;
+  font-weight: 500;
+}
+
+
+ul {
+  font-weight: bold;
+  align-items: baseline;
+  margin-right: auto;
+  list-style: none;
+  display: flex;
+  gap: 4px;
+  padding-inline-start: 0px;
+}
+
+ul li{
+  justify-content: space-between;
+  margin-right: 0;
+}
+
+nav {
+  margin-right: 0;
+
+}
+
+button {
+  margin-top: 50px;
+  
+  border: 0px;
+  align-items: flex-start;
+  display: inline-flex;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 10px;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+
+  margin-bottom: 100px;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#b1:hover {
+  cursor: pointer;
+  background: #b28cc0;
+}
+
+#b2:hover {
+  cursor: pointer;
+  background: #82b3b6;
+}
+
+#b3:hover {
+  cursor: pointer;
+  background: #bea588;
+}
+
+
+#b1 {
+  background: #EDBBFF;
+}
+#b2 {
+  background: #AEF1F5;
+}
+#b3 {
+  background: #FFDDB6;
+}
+
+
+#a {
+  width: 624px;
+  height: 624px;
+
+  border-radius: 624px;
+  background: radial-gradient(50% 50% at 50% 50%, #FFDDB6 0%, rgba(255, 221, 182, 0.00) 100%);
+  flex-shrink: 0;
+
+bottom: 247px;
+
+
+}
